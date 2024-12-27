@@ -1,0 +1,302 @@
+<html>
+<head>
+    <title>Zodiac Health Facility</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a798643e01.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- External CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Photos/Hospital Logo.png" alt="Logo">Zodiac health Facility
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Department</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#doctors">Doctors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn contact-btn">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1>MEDICAL AND HEALTHCARE<br> SOLUTIONS</h1>
+            <p>Providing high-quality healthcare services<br> with compassion and excellence.</p>
+            <a href="#services" class="btn btn-light btn-lg explore-btn">Explore Our Services</a>
+                  
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are committed to delivering exceptional healthcare services to our community.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="Photos/About.jpg" alt="About Us" class="img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <p class="content">
+                        Our hospital is equipped with state-of-the-art facilities and a team of highly skilled professionals to ensure the best medical care. We strive to make a difference in people's lives by offering a wide range of medical services and innovative treatments that prioritize the well-being of our patients.
+                    </p>
+                    <a href="#services" class="btn btn-light btn-lg learn-more-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <i class="fa-solid fa-heart-pulse"></i>
+                        <h4>Emergency Care</h4>
+                        <p>24/7 emergency care services for critical conditions, ensuring your safety at any hour.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <i class="fa-solid fa-person"></i>
+                        <h4>Outpatient Services</h4>
+                        <p>Comprehensive outpatient services tailored to meet your medical needs effectively.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="service-item">
+                        <i class="fa-solid fa-hospital"></i>
+                        <h4>Inpatient Services</h4>
+                        <p>Comfortable and state-of-the-art facilities for patients requiring extended care.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Departments Section -->
+    <section id="departments" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Departments</h2>
+            <p class="text-center mb-5">Explore our specialized medical departments and find the care you need.</p>
+            <div id="departmentsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- First Slide -->
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <div class="department-item text-center p-4">
+                                    <i class="fa-solid fa-heartbeat fa-3x mb-3"></i>
+                                    <h4>Cardiology</h4>
+                                    <p>Specialized heart care and treatments for all cardiovascular conditions.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="department-item text-center p-4">
+                                    <i class="fa-solid fa-bone fa-3x mb-3"></i>
+                                    <h4>Orthopedics</h4>
+                                    <p>Comprehensive care for bones, joints, and muscle conditions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second Slide -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <div class="department-item text-center p-4">
+                                    <i class="fa-solid fa-child fa-3x mb-3"></i>
+                                    <h4>Pediatrics</h4>
+                                    <p>Quality healthcare for children and adolescents.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="department-item text-center p-4">
+                                    <i class="fa-solid fa-stethoscope fa-3x mb-3"></i>
+                                    <h4>General Medicine</h4>
+                                    <p>Comprehensive medical care for all age groups.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Third Slide -->
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4">
+                                <div class="department-item text-center p-4">
+                                    <i class="fa-solid fa-brain fa-3x mb-3"></i>
+                                    <h4>Neurology</h4>
+                                    <p>Expert care for brain, spine, and nerve disorders.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="department-item text-center p-4">
+                                    <i class="fa-solid fa-syringe fa-3x mb-3"></i>
+                                    <h4>Immunology</h4>
+                                    <p>Diagnosis and treatment of immune system disorders.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#departmentsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#departmentsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Doctors Section -->
+    <section id="doctors" class="py-5">
+        <div class="container">
+            <h2>Our Doctors</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="doctor-item">
+                        <img src="Photos/Doc-1.jpg" class="rounded-circle mb-3" alt="Dr. Jane Doe">
+                        <h4>Dr. Jane Doe</h4>
+                        <p>Cardiologist</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="doctor-item">
+                        <img src="Photos/Doc-2.jpg" class="rounded-circle mb-3" alt="Dr. John Smith">
+                        <h4>Dr. John Smith</h4>
+                        <p>Orthopedic Surgeon</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="doctor-item">
+                        <img src="Photos/Doc-3.jpg" class="rounded-circle mb-3" alt="Dr. Alice Brown">
+                        <h4>Dr. Alice Brown</h4>
+                        <p>Pediatrician</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We’re here to help and answer any questions you might have. Get in touch with us!</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact-info">
+                        <p><i class="fa-solid fa-location-dot"></i> 123 Healthcare Avenue, City, Country</p>
+                        <p><i class="fa-solid fa-phone"></i> +123 456 7890</p>
+                        <p><i class="fa-solid fa-envelope"></i> info@hospital.com</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <form action="#" method="POST">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                            <button type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- About Column -->
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <p>We are committed to providing exceptional healthcare services with compassion and expertise.</p>
+                </div>
+    
+                <!-- Quick Links Column -->
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Contact Info Column -->
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> 123 Healthcare Ave, City</li>
+                        <li><i class="fa-solid fa-phone"></i> +123 456 7890</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@hospital.com</li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media Column -->
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Copyright Section -->
+            <div class="copyright">
+                &copy; 2024 Zodiac Health Facility. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
