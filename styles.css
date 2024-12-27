@@ -459,14 +459,14 @@ body {
     padding-top: 20px;
 }
 
-/* @media (min-width:991px){
+@media (min-width:991px){
     #hero{
         max-width: 100%;
     }
     body{
         text-align: center;
     }
-} */
+}
 
 
 
